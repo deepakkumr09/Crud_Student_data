@@ -13,7 +13,7 @@ body{
 
 #header{
     text-align: center;
-    background-color:#05086e;
+    background-color: #1abc9c;
     padding: 10px;
 }
 
@@ -159,7 +159,7 @@ body{
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #05086e;
+    background-color: #1abc9c;
     display: block;
     margin: 0 5px 0 0;
     transition: all 0.3s;

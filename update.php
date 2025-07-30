@@ -28,6 +28,10 @@
             <input type="hidden" name="sid"  value="<?php echo $row['sid']; ?>" />
             <input type="text" name="sname" value="<?php echo $row['sname']; ?>" />
         </div>
+         <div class="form-group">
+            <label>Email</label>
+            <input type="text" name="email" value="<?php echo $row['email']; ?>" />
+        </div>
         <div class="form-group">
             <label>Address</label>
             <input type="text" name="saddress" value="<?php echo $row['saddress']; ?>" />

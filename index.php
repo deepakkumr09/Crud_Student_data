@@ -15,6 +15,7 @@ include 'header.php';
         <thead>
         <th>Id</th>
         <th>Name</th>
+        <th>Email</th>
         <th>Address</th>
         <th>Class</th>
         <th>Phone</th>
@@ -27,6 +28,7 @@ include 'header.php';
             <tr>
                 <td><?php echo $row['sid']; ?></td>
                 <td><?php echo $row['sname'];  ?></td>
+                <td><?php echo $row['email'];  ?></td>
                 <td><?php echo $row['saddress']; ?></td>
                 <td><?php echo $row['cname']; ?></td>
                 <td><?php echo $row['sphone'];  ?></td>
